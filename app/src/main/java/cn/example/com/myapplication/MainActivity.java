@@ -35,5 +35,6 @@ public class MainActivity extends AppCompatActivity {
         //创建了test分支，
         //创建了test分支，远程提交时，提交到了远程，但是远程新建了一个test分支
         //master分支
+        //develop 1
     }
 }
