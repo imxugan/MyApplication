@@ -3,8 +3,10 @@ package cn.example.com.myapplication;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
+import android.widget.Toast;
 
 import cn.example.com.myapplication.view.CBProgressBar;
 
@@ -24,6 +26,11 @@ public class MainActivity extends AppCompatActivity {
         Log.i("MainActivity","onCreate");
         //develop分支上创建的代码
         Button btn_develop = (Button)findViewById(R.id.btn_develop);
-
+        btn_develop.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(MainActivity.this,"develop",Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 }
