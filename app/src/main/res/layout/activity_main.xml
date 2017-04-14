@@ -45,4 +45,9 @@
             android:progressDrawable="@drawable/progressbar"
             android:visibility="visible"/>
     </LinearLayout>
+    <Button
+        android:id="@+id/btn_develop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这个按钮是在develop分支上创建的"/>
 </LinearLayout>

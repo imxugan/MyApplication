@@ -3,6 +3,7 @@ package cn.example.com.myapplication;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.widget.Button;
 import android.widget.ProgressBar;
 
 import cn.example.com.myapplication.view.CBProgressBar;
@@ -21,5 +22,8 @@ public class MainActivity extends AppCompatActivity {
         pb_xp.setProgress(100);
         //测试改了部分代码，再次提交
         Log.i("MainActivity","onCreate");
+        //develop分支上创建的代码
+        Button btn_develop = (Button)findViewById(R.id.btn_develop);
+
     }
 }
